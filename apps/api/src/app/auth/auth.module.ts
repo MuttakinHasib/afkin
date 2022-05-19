@@ -7,6 +7,7 @@ import { SessionSerializer } from './session.serializer';
 import { MongooseModule } from '@nestjs/mongoose';
 import { User, UserSchema } from '../users/schemas';
 import { UsersService } from '../users/users.service';
+import { CloudinaryService } from '@afkin/cloudinary';
 
 @Module({
   imports: [
